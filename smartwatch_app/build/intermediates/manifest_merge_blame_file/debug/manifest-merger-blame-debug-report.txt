@@ -1,0 +1,186 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.samsung.android.trackingsampleapp"
+4    android:versionCode="1100"
+5    android:versionName="1.1.00" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+8-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:6:5-68
+11-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:6:22-65
+12
+13    <uses-feature android:name="android.hardware.type.watch" />
+13-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:8:5-64
+13-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:8:19-61
+14
+15    <uses-permission android:name="android.permission.BODY_SENSORS" />
+15-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:10:5-71
+15-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:10:22-68
+16    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+16-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:11:5-79
+16-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:11:22-76
+17
+18    <queries>
+18-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:13:5-15:15
+19        <package android:name="com.google.android.wearable.healthservices" />
+19-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:14:9-78
+19-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:14:18-75
+20        <package android:name="com.sec.android.app.samsungapps" />
+20-->[priv-health-tracking-v1.1.0.aar] C:\Users\MSI\.gradle\caches\transforms-3\d6900b7ad8737063bf905d6f65433d97\transformed\priv-health-tracking-v1.1.0\AndroidManifest.xml:10:9-67
+20-->[priv-health-tracking-v1.1.0.aar] C:\Users\MSI\.gradle\caches\transforms-3\d6900b7ad8737063bf905d6f65433d97\transformed\priv-health-tracking-v1.1.0\AndroidManifest.xml:10:18-64
+21    </queries>
+22
+23    <permission
+23-->[androidx.core:core:1.9.0] C:\Users\MSI\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+24        android:name="com.samsung.android.trackingsampleapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.9.0] C:\Users\MSI\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.9.0] C:\Users\MSI\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.samsung.android.trackingsampleapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.9.0] C:\Users\MSI\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.9.0] C:\Users\MSI\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+28
+29    <application
+29-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:17:5-63:19
+30        android:allowBackup="true"
+30-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:18:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.9.0] C:\Users\MSI\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:19:9-43
+35        android:label="@string/app_name"
+35-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:20:9-41
+36        android:supportsRtl="true"
+36-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:21:9-35
+37        android:testOnly="true"
+38        android:theme="@android:style/Theme.DeviceDefault" >
+38-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:22:9-59
+39
+40        <!--
+41               Set to true if your app is Standalone, that is, it does not require the handheld
+42               app to run.
+43        -->
+44        <meta-data
+44-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:28:9-30:36
+45            android:name="com.google.android.wearable.standalone"
+45-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:29:13-66
+46            android:value="true" />
+46-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:30:13-33
+47
+48        <activity
+48-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:32:9-34:61
+49            android:name="com.samsung.android.trackingsampleapp.PpgIrActivity"
+49-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:33:13-42
+50            android:label="@string/title_activity_ppg_ir" />
+50-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:34:13-58
+51        <activity
+51-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:35:9-37:65
+52            android:name="com.samsung.android.trackingsampleapp.HeartRateActivity"
+52-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:36:13-46
+53            android:label="@string/title_activity_heart_rate" />
+53-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:37:13-62
+54        <activity
+54-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:38:9-40:58
+55            android:name="com.samsung.android.trackingsampleapp.EcgActivity"
+55-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:39:13-40
+56            android:label="@string/title_activity_ecg" />
+56-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:40:13-55
+57        <activity
+57-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:41:9-43:64
+58            android:name="com.samsung.android.trackingsampleapp.PpgGreenActivity"
+58-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:42:13-45
+59            android:label="@string/title_activity_ppg_green" />
+59-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:43:13-61
+60        <activity
+60-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:44:9-46:63
+61            android:name="com.samsung.android.trackingsampleapp.SettingsActivity"
+61-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:45:13-45
+62            android:label="@string/title_activity_settings" />
+62-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:46:13-60
+63        <activity
+63-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:47:9-55:20
+64            android:name="com.samsung.android.trackingsampleapp.choiceActivity"
+64-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:48:13-43
+65            android:label="@string/title_activity_main" >
+65-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:49:13-56
+66            <intent-filter>
+66-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:50:13-54:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:51:17-69
+67-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:51:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:53:17-77
+69-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:53:27-74
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:56:9-58:71
+73            android:name="com.samsung.android.trackingsampleapp.PpgRedActivity"
+73-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:57:13-43
+74            android:label="@string/title_activity_ppg_red" />
+74-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:58:13-59
+75        <activity
+75-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:59:9-62:46
+76            android:name="com.samsung.android.trackingsampleapp.PermissionActivity"
+76-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:60:13-47
+77            android:exported="false"
+77-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:61:13-37
+78            android:launchMode="singleTop" />
+78-->C:\Users\MSI\mobileApp\smartwatch_app\src\main\AndroidManifest.xml:62:13-43
+79
+80        <uses-library
+80-->[com.google.android.support:wearable:2.9.0] C:\Users\MSI\.gradle\caches\transforms-3\884c215121f90a632db4e183ff4cad08\transformed\wearable-2.9.0\AndroidManifest.xml:10:9-12:40
+81            android:name="com.google.android.wearable"
+81-->[com.google.android.support:wearable:2.9.0] C:\Users\MSI\.gradle\caches\transforms-3\884c215121f90a632db4e183ff4cad08\transformed\wearable-2.9.0\AndroidManifest.xml:11:13-55
+82            android:required="false" />
+82-->[com.google.android.support:wearable:2.9.0] C:\Users\MSI\.gradle\caches\transforms-3\884c215121f90a632db4e183ff4cad08\transformed\wearable-2.9.0\AndroidManifest.xml:12:13-37
+83
+84        <activity
+84-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\MSI\.gradle\caches\transforms-3\bee261e2cb63ee0fca24c367d583ea81\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+85-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\MSI\.gradle\caches\transforms-3\bee261e2cb63ee0fca24c367d583ea81\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\MSI\.gradle\caches\transforms-3\bee261e2cb63ee0fca24c367d583ea81\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\MSI\.gradle\caches\transforms-3\bee261e2cb63ee0fca24c367d583ea81\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+88
+89        <meta-data
+89-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\MSI\.gradle\caches\transforms-3\bc3877044b8b45761dd9b7b4a8158a88\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+90            android:name="com.google.android.gms.version"
+90-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\MSI\.gradle\caches\transforms-3\bc3877044b8b45761dd9b7b4a8158a88\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+91            android:value="@integer/google_play_services_version" />
+91-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\MSI\.gradle\caches\transforms-3\bc3877044b8b45761dd9b7b4a8158a88\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+92
+93        <provider
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MSI\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+94            android:name="androidx.startup.InitializationProvider"
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MSI\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+95            android:authorities="com.samsung.android.trackingsampleapp.androidx-startup"
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MSI\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+96            android:exported="false" >
+96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MSI\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+97            <meta-data
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MSI\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+98                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MSI\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+99                android:value="androidx.startup" />
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MSI\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+100            <meta-data
+100-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\MSI\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+101                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+101-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\MSI\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+102                android:value="androidx.startup" />
+102-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\MSI\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+103        </provider>
+104    </application>
+105
+106</manifest>
